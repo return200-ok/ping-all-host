@@ -3,6 +3,7 @@ from subprocess import check_output
 import re 
 
 first_octets = '192.168.3.'
+first_octets = input('your network: ')
 
 def ping(last_octests):
     try:
