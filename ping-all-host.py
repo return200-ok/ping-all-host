@@ -1,6 +1,7 @@
-from concurrent.futures import ThreadPoolExecutor as tpe, as_completed
+import re
+from concurrent.futures import ThreadPoolExecutor as tpe
+from concurrent.futures import as_completed
 from subprocess import check_output
-import re 
 
 first_octets = '192.168.3.'
 first_octets = input('your network: ')
